@@ -24,10 +24,10 @@ export default defineConfig({
    */
   hash: true,
 
-  base: PUBLIC_PATH,
-  publicPath: PUBLIC_PATH,
-  history: { 
-    type: 'hash' 
+  base: '/about-me/',
+  publicPath: '/about-me/',
+  targets: {
+    chrome: 80,
   },
   esbuildMinifyIIFE: true,
 
